@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 4 ~ Code Quiz </title>
+    <link rel="stylesheet" href="./Assets/style.css"/>
+</head>
+<body>
+    <h1>
+        <button id="viewHighScore">View Highscores</button>
+        <h3 id="timerCount">Time: 0</h3>
+    </h1>
+
+<div class="hide" id="quizCont">
+    <div id="questionCont"></div>
+    <button class="btnEle" id="ChoiceA"></button>
+    <button class="btnEle" id="ChoiceB"></button>
+    <button class="btnEle" id="ChoiceC"></button>
+    <button class="btnEle" id="ChoiceD"></button>
+</div>
+
+<div id="rules">
+    <p>
+        Welcome to the Pokemon Gen 1 Quiz!
+        <button id="startBtn">Start</button>
+    </p>
+</div>
+
+<div class="hide" id="resultsCont">
+    <h2>Finished!</h2>
+    <form action="">
+        <input
+        type="text"
+        placeholder="Enter your name"
+        id="inputName"
+        />
+    </form>
+
+    <button id="resetBtn">Play Again?</button>
+    <button id="clearBtn">Clear your score!</button>
+    <ol id="olEle"></ol>
+</div>
+
+
+    <script src="./Assets/script.js"></script>
+</body>
+</html>

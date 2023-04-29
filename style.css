@@ -1,0 +1,53 @@
+:root {
+    --middle-grey: #8A817C;
+    --pale-silver: #bcb8b1;
+    --isabelline: #f4f3ee;
+    --melon: #e0afa0;
+}
+
+::selection {
+    background-color: var(--pale-silver);
+    color: var(--middle-grey);
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 40;
+    line-height: 1.5;
+    color: var(--isabelline);
+    background-color: var(--middle-grey);
+    font-size: 20px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 0.625rem;
+    color: var(--melon);
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    -ms-flex-item-align: center;
+    
+}
+
+header {
+    width: 90%;
+    margin: 15px;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+header h1.page-title {
+    padding: 1rem 1.2rem;
+    font-size: 4.5rem;
+}
+
+main {
+    width: 96%;
+    margin: 15px;
+}
