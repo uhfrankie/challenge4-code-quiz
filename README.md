@@ -18,5 +18,6 @@
     THEN I can save my initials and my score
 
 <h3> Screenshots </h3>
+![Screenshot (78)](https://user-images.githubusercontent.com/116978170/235543759-1e5765ba-258e-4cd1-81b9-09b91979d898.png)
 
 <h4> Live Website </h4> 
